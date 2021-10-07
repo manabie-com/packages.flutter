@@ -10,16 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  extended_image: ^1.0.0
-  synchronized: ^2.2.0+2
-  device_info: ^0.4.2+4
+  extended_image: ^5.1.2
+  synchronized: ^3.0.0
+  device_info: ^2.0.2
   native_pdf_renderer: 
     git: 
       url: git@github.com:manabie-com/packages.flutter.git
       path: packages/native_pdf_renderer
-    version: ^2.3.2
-
+      ref: native_pdf_renderer-v1.6.2
+      
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.9.0
+  pedantic: ^1.11.1
